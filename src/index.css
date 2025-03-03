@@ -1,0 +1,10 @@
+:root {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  cursor: url("./assets/arrow-pointer-solid.svg"), auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}

@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid black;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.navLinks > * {
+  padding: 0 1rem;
+  text-decoration: none;
+  color: black;
+  cursor: url("../../assets/arrow-pointer-solid.svg"), auto;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.navRight > * {
+  padding: 0 1rem;
+}
+
+.searchbar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 20rem;
+  padding: 1rem 0;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.userOptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  width: 80%;
+  font-size: 1rem;
+}
+
+.loginButton {
+  border: none;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: url("../../assets/arrow-pointer-solid.svg"), auto;
+}
