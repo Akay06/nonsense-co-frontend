@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "./error.module.scss";
+import styles from "./error.module.css";
 import scareCrow from "../../assets/Scarecrow.png";
 
 const ErrorPage = () => {
